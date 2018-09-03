@@ -1,6 +1,6 @@
 var proxy = require("http-proxy-simple").createProxyServer({
     host: "0.0.0.0",
-    port: 80
+    port: process.env.PORT || 3000
 });
  
 proxy.on("connection-open", function (cid, socket) {
