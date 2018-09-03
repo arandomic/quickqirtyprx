@@ -1,4 +1,4 @@
-var proxy = require("./http-proxy-simple").createProxyServer({
+var proxy = require("http-proxy-simple").createProxyServer({
     host: "0.0.0.0",
     port: 80
 });
