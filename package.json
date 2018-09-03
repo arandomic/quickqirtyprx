@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "description": "quick and dirty",
   "main": "index.js",
-  "repository": "",
+  "repository": "npm/npm",
   "author": "",
-  "license": "BSD",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+   }  
   "dependencies": {
     "http-proxy-simple": "~0.9.8"
   },
